@@ -1,0 +1,24 @@
+huggingface-hub==0.0.12
+numpy==1.23.2
+openai==0.23.0
+pandas==1.4.3
+transformers==4.21.1
+rank_bm25>=0.2.2
+pause>=0.3
+bert_score
+datasets
+transformers
+inflect==4.1.0
+
+jsonlines
+omegaconf
+hyrdra-core
+typer
+rich
+spacy
+# python -m spacy download en_core_web_sm
+
+# qdecomp:
+overrides==3.1.0
+progressbar==2.5
+edit_distance
