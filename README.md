@@ -4,7 +4,7 @@ This is the repository for the paper [Coverage-based Example Selection for In-Co
 
 The code is organized as follows:
 
-- `data/` contains the datasets used in the paper.
+- `data/` contains the datasets used in the paper. The datasets can be downloaded from [here](https://1drv.ms/u/s!AqJNiE6C-nXuoawBxh-3rfUsSf4-8A?e=3o1YDK).
 - `src/params.py` defines experiment parameters
 - `src/driver.py` is the main file to run a single experiment. Instead of directly running this file, use `src/experiments.py` -- it defines default parameters and makes it easy to run multiple experiments.
 - `src/experiments.py` contains the code to run experiments, track experiment statuses and aggregate results. Instead, of directly it dumps the parameters for all the experiments to a file that is then used by `src/run.py`.
