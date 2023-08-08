@@ -19,7 +19,7 @@ A typical workflow is as follows:
 ```bash
 python experiments.py --label 'final' \
 --datasets "overnight;atis;smcalflow-cs;geoquery;break;mtop" --seeds '0'
---selectors "random;cosine;bm25;bertscore;bertscore_coverage" \
+--selectors "random;cosine;bm25;bertscore;set_bsr" \
 --lms "cushman;codex;starcoder;neo;llama7B;llama13B" \
 --lm-batch-size 20 --batch-size 20 --n-shots '8' \
 --baselines-exp --paramsfile "params/params-all.jsonl" --run \

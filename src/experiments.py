@@ -334,7 +334,7 @@ def main(
                     selector_args=dict(substruct='ngram', ordering='bm25', subst_size=4))
                 else: continue
             else:
-                if dataset != D.NL2BASH: params_l += get_params_fn(
+                params_l += get_params_fn(
                     selector_args=dict(substruct='depst', subst_size=4))
                 params_l += get_params_fn(selector_args=dict(substruct='ngram', subst_size=[1, 4]))
         elif selector == 'lf_coverage':
