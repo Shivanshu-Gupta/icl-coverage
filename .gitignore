@@ -269,9 +269,11 @@ data/
 src/selector/archive
 openai_keys.txt
 docs
-src/scratch
+assets
 src/third_party
 src/archive
 extensions.py
 extensions.sh
 outputs/
+data-clean.zip
+data_bak/

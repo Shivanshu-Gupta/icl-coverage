@@ -17,7 +17,13 @@ A typical workflow is as follows:
 1. This generates the parameters for 8-shot ICL with all the datasets and LLMs used in the paper and dumps them to `params/params-all.jsonl`.
 
 ```bash
-python experiments.py --label 'final' --datasets "overnight;atis;smcalflow-cs;geoquery;break;mtop" --seeds '0' --selectors "random;cosine;bm25;bertscore;bertscore_coverage" --lms "cushman;codex;starcoder;neo;llama7B;llama13B" --lm-batch-size 20 --batch-size 20 --n-shots '8'  --paramsfile "params/params-all.jsonl" --run --no-collate-results --baselines-exp
+python experiments.py --label 'final' \
+--datasets "overnight;atis;smcalflow-cs;geoquery;break;mtop" --seeds '0'
+--selectors "random;cosine;bm25;bertscore;bertscore_coverage" \
+--lms "cushman;codex;starcoder;neo;llama7B;llama13B" \
+--lm-batch-size 20 --batch-size 20 --n-shots '8' \
+--baselines-exp --paramsfile "params/params-all.jsonl" --run \
+--no-collate-results
 ```
 
 2. This runs the experiments in `params/params-all.jsonl` parallelly on gpus 0 and 1.
