@@ -1,5 +1,7 @@
 # Coverage-based Example Selection
 
+> NOTE: This repository has been superseded by https://github.com/Shivanshu-Gupta/in-context-learning. Consider using that instead.
+
 This is the repository for the paper [Coverage-based Example Selection for In-Context Learning](https://arxiv.org/abs/2305.14907). The documentation is WIP but this should help you get started.
 
 The code is organized as follows:
