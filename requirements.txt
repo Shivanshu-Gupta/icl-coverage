@@ -12,7 +12,7 @@ inflect==4.1.0
 langchain @ git+https://github.com/Shivanshu-Gupta/langchain
 jsonlines
 omegaconf
-hyrdra-core
+hydra-core
 typer
 rich
 spacy
